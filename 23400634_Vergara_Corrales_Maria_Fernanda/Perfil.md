@@ -1,3 +1,5 @@
+![Uploading WhatsApp Image 2026-09-23 at 10.38.13 PM.jpeg…]()
+
 # Hola, soy Fernanda  Vergara :)
 
 --Carrera: Ingeniería en Sistemas Computacionales
