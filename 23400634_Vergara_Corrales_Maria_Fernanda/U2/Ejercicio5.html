@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+<meta charset UTF="UTF-8">
+<title>CINEMUNDO: Tienda Peliculas</title>
+
+
+    </head>
+
+    <body>
+<hr>
+    <h1>CineMundo: Tienda de peliculas</h1>
+
+    <h5>Tu rincón favorito para comprar películas clásicas en formato físico y digital</h5>
+
+<ol>
+   <li><a href="Película del mes">Pelicula del mes</a></li>
+   <li><a href="Clasificación y géneros">Clasificacion y generos</a></li>
+   <li><a href="Catálogo y precio">Catalogo y precios</a></li>
+   <li><a href="Solicitud de pedido o reserva">Solicitudes</a></li>
+   <li><a href="Atención al cliente">Atencion al cliente</a></li>       
+
+</ol>
+<hr>
+<h2>Pelicula del mes</h2>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkd8By2IBpmqjqwDvyivS5Y-QDhAIhBB0BY4AhPZM3YyEsyfMHr8wQRs1p&s=10" alt="Interestellar" width="400">
+<h5>Aventura Espacial: Más allá del horizonte</h5>
+<p>Una expedición inolvidable a través de galaxias desconocidas <em>"Una obra maestra visual que no te puedes perder"</em>, según los críticos.</p>
+
+<p>Puedes ver más detalles y reseñas en IMDb</p>
+<hr>
+
+<h2>Clasificación y géneros</h2>
+<h3>Géneros disponibles</h3>
+    
+<ul>
+
+    <li>Ciencia Ficción</li>
+    <li>Animación familiar</li>
+    <li>Suspenso y misterio</li>
+    <li>Comedia clásica</li>
+</ul>
+
+<h5>Las 3 más vendidas de la semana</h5>
+
+    <ol>
+        <li>El misterio de la mansión (Edición especial)</li>
+        <li>Aventura Espacial </li>
+        <li>Risas en la gran ciudad</li>   
+     </ol>
+
+    <h5> Formatos físicos disponibles</h5>
+<ul>
+    <li>Blu-Ray 4K Ultra HD</li>
+    <li>DVD estándar</li>
+
+</ul>
+
+
+<h6>NOTA IMPORTANTE</h6>
+
+<em><p>*TODOS LOS TÍTULOS CUENTAN CON GARANTÍA POR DEFECTO DE FÁBRICA</p></em>
+
+<HR>
+
+    <h2>Catálogo y películas</h2>
+<table border="1">
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Género</th>
+                <th>Año</th>
+                <th>Formato</th>
+                <th>Precio (USD)</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <td>Aventura espacial</td>
+            <td>Ciencia Ficcion</td>
+            <td>2024</td>
+            <td>Blu-Ray 4K</td>
+            <td>$25.00</td>
+        
+        </tbody>
+        <tbody>       
+            <td>El misterio de la mansión</td>
+            <td>Suspenso</td>
+            <td>2023</td>
+            <td>DVD</td>
+            <td>$15.00</td>
+        </tbody>
+
+        <tbody>
+            <td>Risas en la gran ciudad</td>
+            <td>Comedia</td>
+            <td>2022</td>
+            <td>Blu-Ray</td>
+            <td>$18.50</td>
+        </tbody>
+</table>
+<hr>
+ 
+   
+    <h2>Solicitud de periodo o reserva</h2>
+    <p> Completa el formulario para reservar tu pelicula favorita</p>
+
+    <form>
+        <fieldset>
+            <legend>Datos personales</legend>
+
+            <label for="Nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" placeholder="Ej. Ana Gómez"><br><br>
+
+            <label for="Correo">Correo electrónico:</label><br>
+            <input type="email" id="Correo" placeholder="correo@ejemplo.com">
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Detalles de la compra</legend>
+
+            <label for="Peliculas">Selecciona la pelicula:</label><br>
+            <select id="Pelicula">
+                <option value="25">Aventura espacial ($25.00)</option>
+            </select><br><br>
+        <p>Formato de entrega</p>
+
+            <input type="Radio" id="Artista" name="Formato_entrega" value="Disco" checked>
+            <label for="Disco">Disco físico (Envío a domicilio)</label><br>
+
+            <input type="Radio" id="digital" name="Formato_entrega" value="digital">
+            <label for="digital">Copia digital (Descarga directa)</label>
+
+        </fieldset>
+    </form>
+
+    <p>Opciones adicionales</p>
+    <div>
+        <input type="checkbox" id="regalo" name="opciones" value="regalo">
+        <label for="regalo">Incluir envoltura para regalo</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="folleto" name="opciones" value="folleto">
+        <label for="folleto">Solucionar follero con ficha técnica</label>
+    </div>
+
+    <p><label for="Comentarios" name="Comentarios" rows="4" cols="50" placeholder="Escribe aquí cualquier indicación especial"></p></label>
+
+    <br><br>
+    <input type="submit" value="Enviar Pedido">
+    <input type="reset" value="Limpiar formulario">
+
+
+
+    <hr>
+    <h2>ATENCIÓN AL CLIENTE</h2>
+        <p>¿Tienes dudas o buscas una película descatalogada? Escríbenos a <a href="mailto:soporte@cinemundo.ejemplo.com">soporte.ejemplo.com</a></p>
+
+        <p><strong>CineMundo S.A </strong>&copy; 2026-Todos los derechos reservados.</p>
+    </table>
+</body>
+</html>
